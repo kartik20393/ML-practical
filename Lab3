@@ -1,0 +1,15 @@
+Program 3 Install and set up scikit-learn and other necessary tools.
+ 
+Procedure  
+Install scikit-learn and other libraries: 
+1. Install NumPy and pandas (if not installed): 
+• Open a terminal/command prompt. 
+• Type pip install numpy pandas and press Enter. This will install NumPy 
+and pandas, essential libraries for data manipulation and computation. 
+2. Install scikit-learn: 
+• In the same terminal/command prompt, type pip install scikit-learn and 
+press Enter. This will install scikit-learn, the machine learning library. 
+Test the installations: 
+• Open a Python interpreter by typing python or python3 in the terminal. 
+• Import scikit-learn: import sklearn 
+• If there are no errors, scikit-learn is successfully 
