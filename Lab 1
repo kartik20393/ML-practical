@@ -1,0 +1,139 @@
+Program 1: Install and Set Up Python and Essential Libraries (NumPy and pandas)
+
+Step 1: Install Python
+
+Download Python:
+
+    Visit the official Python website: python.org.
+    Click on “Downloads” and download the latest version for Windows.
+
+Install Python:
+
+    Run the downloaded installer.
+    Check the box that says “Add Python 3.x to PATH”.
+    Click on “Customize installation” and ensure you select all options, including “pip”.
+    In the "Advanced Options," select "Install for all users" and set the installation path to C:\Python.
+    Click “Install” to complete the process.
+
+Step 2: Verify PIP Installation
+
+PIP usually comes with Python 3.4 and later. To check if it is installed:
+
+    Open Command Prompt.
+    Type pip --version and press Enter.
+
+If PIP is missing or needs an update, run the following command:
+
+    python -m ensurepip --upgrade
+
+To confirm PIP is installed, type:
+
+    python -m pip --version
+
+Step 3: Create a Workspace
+
+    Create a folder for your machine learning projects. Open Command Prompt and type:
+
+          
+
+    C:\> mkdir C:\ML_Projects
+    C:\> cd C:\ML_Projects
+
+        
+
+Step 4: Create a Virtual Environment
+
+A virtual environment helps keep your projects organized and prevents conflicts between libraries:
+
+    Install the virtual environment tool:
+
+          
+
+pip install virtualenv
+
+    
+
+Create a new virtual environment called ml_env:
+
+      
+
+python -m venv ml_env
+
+    
+
+Activate the virtual environment:
+
+      
+
+    ml_env\Scripts\activate
+
+        
+
+When activated, any libraries you install will only affect this environment. To exit the virtual environment, simply type deactivate.
+
+Step 5: Install Essential Libraries
+
+With your virtual environment activated, install the necessary libraries:
+
+Upgrade PIP:
+
+      
+
+(ml_env) C:\> python -m pip install --upgrade pip
+
+    
+
+Install the necessary libraries:
+
+      
+
+(ml_env) C:\> pip install matplotlib numpy pandas scikit-learn
+
+    
+
+Step 6: Verify the Installation
+
+To ensure everything is set up correctly, verify the installations:
+
+Check Python Installation:
+
+    Open Command Prompt and run:
+
+          
+
+    python --version
+
+        
+
+You should see the version of Python you installed.
+
+Check PIP Installation:
+Run the following command to verify PIP:
+
+      
+
+pip --version
+
+    
+
+Check Installed Libraries:
+Confirm the installation of the essential libraries by running the following commands in the Python interpreter (make sure to activate your virtual environment first):
+
+      
+
+import numpy
+print(numpy.__version__)
+
+import pandas
+print(pandas.__version__)
+
+import matplotlib
+print(matplotlib.__version__)
+
+import sklearn
+print(sklearn.__version__)
+
+    
+
+If there are no errors and you see the version numbers, then the libraries are installed correctly.
+
