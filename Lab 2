@@ -1,5 +1,7 @@
 Program 2 Introduce scikit-learn as a machine learning library.
-Scikit-learn is a popular open-source machine learning library in Python that offers a comprehensive set of tools and algorithms for data analysis, modelling, and machine learning tasks. It is built on foundational libraries like NumPy, SciPy, and Matplotlib. Scikit-learn provides a user-friendly and efficient framework for both beginners and experts in the field of data science.
+Scikit-learn is a popular open-source machine learning library in Python that offers a comprehensive set of tools and algorithms for data analysis, modelling, and machine learning tasks. 
+It is built on foundational libraries like NumPy, SciPy, and Matplotlib. 
+Scikit-learn provides a user-friendly and efficient framework for both beginners and experts in the field of data science.
 Some key points to introduce scikit-learn as a machine learning library:
 1. Comprehensive Machine Learning Library: Scikit-learn offers a wide range of machine learning algorithms and tools for various tasks such as classification, regression, clustering, dimensionality reduction, and more.
 2. User-Friendly and Easy to Use: It is designed with a user-friendly interface and simple syntax, making it accessible for both beginners and experienced machine learning practitioners.
