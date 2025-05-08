@@ -15,8 +15,8 @@ Features:
     Data preprocessing and feature engineering techniques
     Model training, evaluation, and tuning
     Visualizations for better understanding of data and model performance
-    Organized notebooks and scripts for easy navigation
 
+    
 Setup Instructions
 Prerequisites
 
@@ -30,7 +30,7 @@ Open your terminal or command prompt and run:
 
       
 
-git clone https://github.com/kartik20393/ML-practical.git
+    git clone https://github.com/kartik20393/ML-practical.git
 
     
 
@@ -38,7 +38,7 @@ Step 2: Navigate into the Directory
 
       
 
-cd ML-practical
+    cd ML-practical
 
     
 
@@ -48,17 +48,17 @@ It's good practice to use a virtual environment to manage dependencies:
 
       
 
-python -m venv venv
+    python -m venv venv
 
     
 
 Activate the virtual environment:
 
-    On Windows:
+On Windows:
 
           
 
-venv\Scripts\activate
+    venv\Scripts\activate
 
     
 
@@ -76,7 +76,7 @@ Install the necessary Python packages listed in the requirements.txt file:
 
       
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
     
 
@@ -84,31 +84,7 @@ pip install -r requirements.txt
 
       
 
-pip install numpy pandas scikit-learn matplotlib seaborn jupyter
-
-    
-
-Execution Instructions
-Running Jupyter Notebooks
-
-Most projects and exercises are likely contained within Jupyter notebooks.
-
-    Launch Jupyter Notebook:
-
-          
-
-    jupyter notebook
-
-        
-
-    Your browser will open a Jupyter interface. Navigate through the notebooks to explore different ML projects.
-    Click on a notebook file (.ipynb) to open and run the code cells sequentially.
-
-Running Python Scripts
-
-If scripts are provided:
-
-    Run a script using:
+    pip install numpy pandas scikit-learn matplotlib seaborn jupyter
 
           
 
