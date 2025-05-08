@@ -1,0 +1,45 @@
+DataSet:
+      A     B     C
+0  1.0     X   7.0
+1  2.0  None   8.0
+2  NaN     Y   9.0
+3  4.0     Z   NaN
+4  5.0     X  11.0
+DataSet after handling Missing Values of A and C Columns:
+      A      C
+0  1.0   7.00
+1  2.0   8.00
+2  3.0   9.00
+3  4.0   8.75
+4  5.0  11.00
+
+DataSet after handling Missing Values of B Before Label encoding:
+ 0    1
+1    0
+2    2
+3    3
+4    1
+Name: B_encoded, dtype: int64
+
+DataSet after handling Missing Values of B After Label encoding:
+ 0          X
+1    Unknown
+2          Y
+3          Z
+4          X
+Name: B, dtype: object
+DataSet after handling Missing Values of B After one_hot_encoder:
+      A        B      C  B_encoded  B_0  B_1  B_2  B_3
+0  1.0        X   7.00          1  0.0  1.0  0.0  0.0
+1  2.0  Unknown   8.00          0  1.0  0.0  0.0  0.0
+2  3.0        Y   9.00          2  0.0  0.0  1.0  0.0
+3  4.0        Z   8.75          3  0.0  0.0  0.0  1.0
+4  5.0        X  11.00          1  0.0  1.0  0.0  0.0
+Feature Scaling using Standard scaler
+      A        B      C  B_encoded  B_0  B_1  B_2  B_3  A_scaled  C_scaled
+0  1.0        X   7.00          1  0.0  1.0  0.0  0.0 -1.414214 -1.322876
+1  2.0  Unknown   8.00          0  1.0  0.0  0.0  0.0 -0.707107 -0.566947
+2  3.0        Y   9.00          2  0.0  0.0  1.0  0.0  0.000000  0.188982
+3  4.0        Z   8.75          3  0.0  0.0  0.0  1.0  0.707107  0.000000
+4  5.0        X  11.00          1  0.0  1.0  0.0  0.0  1.414214  1.700840
+
